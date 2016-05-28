@@ -1,6 +1,7 @@
 var sites = [
   "http://10.10.40.21/cgi-bin/apcupsd/upsstats.cgi",
   "http://10.10.100.20/cgi-bin/apcupsd/upsstats.cgi",
+  "http://10.10.40.112/cgi-bin/apcupsd/upsstats.cgi",
 ];
 var currentSite = sites.length;
 
