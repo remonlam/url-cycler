@@ -7,6 +7,7 @@
       "http://ups2.virtualclouds.info/cgi-bin/apcupsd/upsstats.cgi",
       "http://ups3.virtualclouds.info/cgi-bin/apcupsd/upsstats.cgi",
       "http://ups4.virtualclouds.info/cgi-bin/apcupsd/upsstats.cgi",
+      "http://www.buienradar.nl/image?type=lightningzozw&fn=buienradarnl-1x1-ani550-1uurbliksem.gif",
     ];
     var currentSite = sites.length;
 
@@ -15,7 +16,7 @@
       setInterval(function() {
         (currentSite == 0) ? currentSite = sites.length - 1 : currentSite = currentSite -1;
         $iframe.attr("src",sites[currentSite]);
-      }, 5000);
+      }, 10000);
     });
   </script>
   <style type="text/css" media="screen">
