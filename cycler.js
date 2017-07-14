@@ -1,8 +1,12 @@
 var sites = [
-  "http://10.10.40.21/cgi-bin/apcupsd/upsstats.cgi",
-  "http://10.10.100.20/cgi-bin/apcupsd/upsstats.cgi",
-  "http://10.10.40.112/cgi-bin/apcupsd/upsstats.cgi",
-  "http://www.buienradar.nl/image?type=lightningzozw&fn=buienradarnl-1x1-ani550-1uurbliksem.gif",
+  "http://ups1.c-s.io/cgi-bin/apcupsd/upsstats.cgi",
+  "http://ups2.c-s.io/cgi-bin/apcupsd/upsstats.cgi",
+  "http://ups3.c-s.io/cgi-bin/apcupsd/upsstats.cgi",
+  "http://ups4.c-s.io/cgi-bin/apcupsd/upsstats.cgi",
+  "http://ups5.c-s.io/cgi-bin/apcupsd/upsstats.cgi",
+  "http://ups6.c-s.io/cgi-bin/apcupsd/upsstats.cgi",
+  "http://ups7.c-s.io/cgi-bin/apcupsd/upsstats.cgi",
+  "http://api.buienradar.nl/image/1.0/RadarMapNL?w=500&h=512",
 ];
 var currentSite = sites.length;
 
