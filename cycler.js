@@ -6,7 +6,7 @@ var sites = [
   "http://ups5.c-s.io/cgi-bin/apcupsd/upsstats.cgi",
   "http://ups6.c-s.io/cgi-bin/apcupsd/upsstats.cgi",
   "http://ups7.c-s.io/cgi-bin/apcupsd/upsstats.cgi",
-  "http://api.buienradar.nl/image/1.0/RadarMapNL?w=500&h=512",
+  "https://api.buienradar.nl/image/1.0/RadarMapNL?w=500&h=512",
 ];
 var currentSite = sites.length;
 
